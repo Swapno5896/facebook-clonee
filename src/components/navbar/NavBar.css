@@ -1,0 +1,21 @@
+
+.icon-middle{
+    font-size: 30px;
+    padding: 0px 18px;
+    margin: 0px;
+}
+.icon-right {
+  font-size: 29px;
+  padding: 3px 18px;
+  margin: 0px;
+}
+.user-nav-img {
+  height: 50px;
+  border-radius: 50px;
+}
+.icon:hover {
+  background-color: rgb(202, 200, 196);
+}
+.nav-use-name {
+  padding: 8px 9px;
+}
