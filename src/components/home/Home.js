@@ -1,12 +1,26 @@
-import React from 'react';
-import Navbar from '../navbar/Navbar';
+import React from "react";
+import LeftSidebar from "../left-sidebar/LeftSidebar";
+import MiddleSection from "../middle-section/MiddleSection";
+import Navbar from "../navbar/Navbar";
+import RightSidebar from "../right-sidebar/RightSidebar";
 
 const Home = () => {
-    return (
-        <div>
-            <Navbar></Navbar>
+  return (
+    <div>
+      <Navbar></Navbar>
+      <div class="row">
+        <div class="col-md-4 ">
+          <LeftSidebar></LeftSidebar>
         </div>
-    );
+        <div class="col-md-5 ">
+          <MiddleSection></MiddleSection>
+        </div>
+        <div class="col-md-3">
+          <RightSidebar></RightSidebar>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
