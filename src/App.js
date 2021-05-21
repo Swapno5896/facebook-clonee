@@ -1,11 +1,10 @@
-import React from "react";
+import React from 'react';
+import Home from './components/home/Home';
 
 const App = () => {
   return (
     <div>
-      <h4>from swapno</h4>
-      <h1>Hello Claver Programmers</h1>
-      <h4>Changed from swapno</h4>
+      <Home></Home>
     </div>
   );
 };
