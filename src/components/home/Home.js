@@ -9,10 +9,10 @@ const Home = () => {
     <div>
       <Navbar></Navbar>
       <div class="row">
-        <div class="col-md-4 ">
+        <div class="col-md-3 ">
           <LeftSidebar></LeftSidebar>
         </div>
-        <div class="col-md-5 ">
+        <div style={{marginLeft:"78px"}} class="col-md-5 ">
           <MiddleSection></MiddleSection>
         </div>
         <div class="col-md-3">

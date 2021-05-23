@@ -1,0 +1,29 @@
+.createPostUserInput{
+  padding-left: 27px;
+}
+
+.createPostUser{
+    width: 38px;
+    border-radius: 30px;
+    margin-right: 13px;
+}
+.createPostUsers{
+    margin: 28px 3px;
+    width: 41px;
+    height: 38px;
+    border-radius: 30px;
+    margin-right: 13px;
+}
+.createPostInput{
+    height: 31px;
+    width: 433px;
+    border-radius: 18px;
+
+}
+.createPostmuddle{
+    display: flex;
+}
+.icon{
+    font-size: 20px;
+    padding: 16px 22px;
+}

@@ -13,8 +13,9 @@ import {
   faUsers,
   faPlus,
   faCommentDots,
-  faBell, 
-  faCaretSquareDown
+  faBell,
+  faCaretSquareDown,
+  faGamepad,
 } from "@fortawesome/free-solid-svg-icons";
 const Navbar = () => {
   return (
@@ -28,10 +29,8 @@ const Navbar = () => {
             alt=""
           />
           <input
-          
             style={{ width: "200px", borderRadius: "30px", height: "40px" }}
             type="text"
-
           />
           <button
             class="navbar-toggler"
@@ -47,7 +46,7 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             {/* <ul class="navbar-nav me-auto mb-2 mb-lg-0"> */}
             <div
-              style={{ paddingLeft: "20%" }}
+              style={{ paddingLeft: "18%" }}
               class=" navbar-nav me-auto mb-2 mb-lg-0"
             >
               <p className="icon  icon-middle">
@@ -64,7 +63,7 @@ const Navbar = () => {
               </p>
               <p className="icon icon-middle">
                 {" "}
-                <FontAwesomeIcon icon={faHotel} />
+                <FontAwesomeIcon icon={faGamepad} />
               </p>
               <p className="icon icon-middle">
                 {" "}
@@ -96,13 +95,14 @@ const Navbar = () => {
             {/* </ul> */}
             <form class="d-flex">
               <img className="user-nav-img" src={userNavImg} alt="" />
-              <p className='nav-use-name'>
-                Swapno
-              </p>
+              <p className="nav-use-name">Swapno</p>
+
+          
+
               <p className="icon icon-right">
                 {" "}
                 <FontAwesomeIcon icon={faPlus} />
-              </p>
+              </p> 
               <p className="icon icon-right">
                 {" "}
                 <FontAwesomeIcon icon={faCommentDots} />
