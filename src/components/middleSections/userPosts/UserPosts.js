@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import userImg from '../../../images/userImg.jpg'
+import UserPostsCard from '../UserPostsCard/UserPostsCard';
 export const posts = [
     {name:'simanto',userImg:userImg,postImg:"",postText:'this is good',comments:[{name:"",userImg:"",text:""}]},
     {name:'rana',userImg:userImg,postImg:"",postText:'this is good',comments:[{name:"",userImg:"",text:""}]},
@@ -17,7 +18,7 @@ const UserPosts = (props) => {
  console.log(props);
     return (
         <div>
-            
+            <UserPostsCard></UserPostsCard> <UserPostsCard></UserPostsCard>
         </div>
     );
 };

@@ -1,0 +1,11 @@
+.ContactCard-container{
+    margin-left: 10px;
+ display: flex;
+}
+.ContactCard-img{
+    width: 38px;
+    border-radius: 25px;
+}
+.ContactCard-text{
+    padding: 5px 12px;
+}

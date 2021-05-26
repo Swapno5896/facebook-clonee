@@ -1,0 +1,34 @@
+.UserPostsCard-container {
+  border: 2px solid whitesmoke;
+  padding: 44px 53px;
+  margin: 33px 3px;
+}
+
+.UserPostsCard-header {
+  display: flex;
+}
+.UserPostsCard-User-img {
+  width: 47px;
+  border-radius: 27px;
+}
+.UserPostsCard-middle {
+  border: 2px solid whitesmoke;
+  min-width: 202px;
+  min-height: 152px;
+}
+.UserPostsCard-footer-1{
+    display: flex;
+    padding: 2px 31px;
+}
+.UserPostsCard-footer-1Comment{
+   padding-left: 306px;
+}
+.UserPostsCard-footer {
+  display: flex;
+  padding: 0px 48px;
+  margin: 0px 3px;
+}
+.UserPostsCard-footer p{
+  
+    margin: 3px 51px;
+  }

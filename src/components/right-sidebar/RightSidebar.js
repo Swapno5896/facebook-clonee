@@ -1,9 +1,13 @@
 import React from 'react';
+import Contacts from './Contacts/Contacts';
+import Sponsored from './Sponsored/Sponsored';
 
 const RightSidebar = () => {
     return (
         <div>
-            <h4>thisis right sidebar</h4>
+            <Sponsored></Sponsored>
+            <hr />
+            <Contacts></Contacts>
         </div>
     );
 };

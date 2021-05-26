@@ -46,6 +46,7 @@ const CreatePost = (props) => {
       <div className="createPostUserInput">
         <img className="createPostUser" src={userImg} alt="" />
         <input
+        placeholder=" What's on your miend , Swapno ?"
           className="createPostInput"
           type="text"
           name=""
@@ -55,6 +56,7 @@ const CreatePost = (props) => {
           data-toggle="modal"
           data-target="#myModal"
         />
+        <hr />
       </div>
       <div className="createPostmuddle">
         <p className="icon ">
