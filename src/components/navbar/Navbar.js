@@ -31,6 +31,7 @@ const Navbar = () => {
           <input
             style={{ width: "200px", borderRadius: "30px", height: "40px" }}
             type="text"
+            placeholder=' Search Facebook'
           />
           <button
             class="navbar-toggler"
